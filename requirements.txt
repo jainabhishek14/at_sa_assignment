@@ -1,0 +1,4 @@
+scrapy==1.8.0
+unicode==2.7
+python-slugify==4.0.0
+nltk==3.4.5
