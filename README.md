@@ -30,3 +30,9 @@ pip3 install -r requirements.txt
 ```bash
 python3 extract_seeking_alpha.py
 ```
+
+## Crawled Earning Calls
+You will find the crawled Earning Calls in the `articles` folder with the name of `<company>.txt` file
+
+## Output
+You will find the output in the `output` folder with the name of `<company>_<product>.txt` file
