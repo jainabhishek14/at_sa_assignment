@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for atacana project
+# Scrapy settings for at project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'atacana'
+BOT_NAME = 'at'
 
-SPIDER_MODULES = ['atacana.spiders']
-NEWSPIDER_MODULE = 'atacana.spiders'
+SPIDER_MODULES = ['at.spiders']
+NEWSPIDER_MODULE = 'ats.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'atacana (+http://www.yourdomain.com)'
+#USER_AGENT = 'at (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True

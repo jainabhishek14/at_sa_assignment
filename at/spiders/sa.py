@@ -42,9 +42,9 @@ headers = {
     'Referrer': origin
 }
 
-class SeekingalphaSpider(scrapy.Spider):
+class SaSpider(scrapy.Spider):
 
-    name = 'seekingalpha'
+    name = 'sa'
     allowed_domains = ['seekingalpha.com']
     custom_settings = {
             # 'LOG_LEVEL': 'CRITICAL', # 'DEBUG'
